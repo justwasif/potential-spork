@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a basic deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justwasif/potential-spork.git"
+  },
+  "author": "wasif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justwasif/potential-spork/issues"
+  },
+  "homepage": "https://github.com/justwasif/potential-spork#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
