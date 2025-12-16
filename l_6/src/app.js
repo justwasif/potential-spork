@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from "cors"
 import cookirParser from "cookie-parser"
-
+import { Router } from 'express'
 
 
 const app=express()
@@ -17,4 +17,4 @@ export{app}
 
 import useRouter from "./routes/user.routes.js";
 
-app.use("/api/v1/user",userRouter)
+app.use("/api/v1/user",useRouter)

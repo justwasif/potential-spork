@@ -28,3 +28,4 @@ const uploadResult=await cloudinary.uploader
         public_id:''
     }
 )
+export {uplodeOnCloudinary}
